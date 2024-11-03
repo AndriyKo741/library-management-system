@@ -1,14 +1,14 @@
 class LibraryItem:
 
 
-def __init__(self, title, author, year):
-    self._title = title
-    self._author = author
-    self._year = year
+    def __init__(self, title, author, year):
+        self._title = title
+        self._author = author
+        self._year = year
 
-@property
-def title(self):
-    return self._title
+    @property
+    def title(self):
+        return self._title
 
 
 @property
